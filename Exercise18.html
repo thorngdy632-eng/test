@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Update and Delete Status</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+     <style>
+        body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    margin: 0;
+    padding-top: 50px;
+}
+
+.status-wrapper {
+    text-align: center;
+    width: 90%;
+}
+
+h1 {
+    font-size: 42px;
+    margin-bottom: 60px;
+}
+
+.status-container {
+    display: flex;
+    justify-content: center;
+    gap: 80px; /* Space between the two boxes */
+}
+
+/* The Bordered Message Box */
+.message-box {
+    border: 2px solid #4a7ebb; /* Blue border */
+    width: 350px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.message-box p {
+    font-size: 22px;
+    margin-bottom: 30px;
+}
+
+/* The Blue Home Button */
+.home-btn {
+    background-color: #5b8bc2;
+    color: white;
+    text-decoration: none;
+    padding: 10px 40px;
+    border-radius: 4px;
+    font-size: 20px;
+    border: 1px solid #3b628e;
+    transition: background 0.3s;
+}
+
+.home-btn:hover {
+    background-color: #4a7ebb;
+}
+     </style>
+</head>
+<body>
+
+    <div class="status-wrapper">
+        <h1>Update and delete button</h1>
+
+        <div class="status-container">
+            <div class="message-box">
+                <p>Your data was updated!</p>
+                <a href="index.html" class="home-btn">Home</a>
+            </div>
+
+            <div class="message-box">
+                <p>Your data was deleted</p>
+                <a href="index.html" class="home-btn">Home</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
